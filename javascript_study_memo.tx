@@ -1,0 +1,111 @@
+・数値に見える文字列を数値に変換する
+var a= parselnt('100') 小数点以下切捨て
+var b=parseFloat('2.5')小数点も含む
+
+・変数の作成する＝変数を定義する
+var kazu = 3;
+console.log(kazu*kazu);
+  対象　命令
+
+log=プログラム進行中に残す記憶
+
+
+
+kazu*kazu*
+9
+
+・変数内容が変わった時
+kazu = 4;
+
+・文法
+変数、演算子、if文、for文,function文など
+・追加、拡張できない
+関数、メソッド、プロパティ
+
+
+戻り値を収める変数＝関数名（引数）
+結果として数値を返す→戻り値
+
+・メソッドの基本的な使い方
+戻り値を収める変数＝オブジェクト変数、メソッド名（引数）
+
+オブジェクト←操作できる何か
+メソッド
+
+<script>
+window.alert('印刷するよ');
+オブジェクトメソッドでメッセージを表示
+window.print();
+  </script>
+
+if 文は制御構文の一種
+条件ごとに処理を切り替える
+
+if文の条件分岐
+
+if(条件式){条件を満たしている時に実行する処理
+
+
+<script>
+  var ans = window.confirm('印刷してもいい？')
+  if (ans == true){
+    window.print();
+  }
+  </script>
+
+{}をブロックと呼び、複数の文をまとめる働きを持つ。
+
+演算子
+
+演算子
+
+働き
+例
+＝＝
+等しい　
+a==b
+!=
+等しくない
+a!=b
+<
+小さい
+a<b
+>
+大きい
+a>b
+<=
+以下
+a<=b
+
+
+
+
+  <script>
+    var ans = window.prompt('数を入力して');
+    ans = parseInt(ans);
+    if (ans>5){
+      window.alert('5より大きい');
+}else{
+  window.alert('5以下')
+}
+</script>
+
+ 
+
+
+・for文で仕事を何度も繰り返す
+
+for(var カウンタ変数＝初期値; 繰り返し条件式; カウンタ変数を増減する式) {
+くり返したい処理
+
+  
+<script>
+    var sum = 0;
+  for(var i=1; i<=10; i++){
+    sum = sum + i;
+    window.document.write('<p>' + sum + '</p>');
+  }
+      </script>
+
+ 
+
